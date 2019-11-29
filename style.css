@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 0.5px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: powderblue;
+}
+.Left {
+  margin:10px 10px 10px 0;
+  width: 40%;
+  border: 0.5px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: grey;
+  float: left;
+}
+
+.Right {
+  margin:10px 0 10px 10px;
+  width: 40%;
+  border: 0.5px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: grey;
+  float: right;
+}
+nav {
+  margin: auto;
+  width: 20%;
+  text-align: center;
+
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:powderblue;
+   text-align: center;
